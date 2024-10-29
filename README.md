@@ -45,7 +45,7 @@ Before you begin, ensure you have:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/employee-management-system-frontend.git
+   git clone https://github.com/harsh-1806/employee-management-system-frontend.git
    cd employee-management-system-frontend
    ```
 
@@ -60,7 +60,7 @@ Before you begin, ensure you have:
 Update the `.env` file with your backend API endpoint:
 
 ```plaintext
-VITE_API_BASE_URL=http://localhost:8080/api
+EMPLOYEE_API_BASE_URL = http://localhost:8080/api/v1/employees
 ```
 
 ### Usage
@@ -87,9 +87,9 @@ VITE_API_BASE_URL=http://localhost:8080/api
 ├── src
 │   ├── assets          # Images, icons, etc.
 │   ├── components      # Reusable UI components
-│   ├── pages           # Page components
 │   ├── services        # API service functions
 │   ├── App.jsx         # Main app component
+│   ├── index.css       # Main tailwind entry css
 │   └── main.jsx        # App entry point
 └── README.md
 ```
