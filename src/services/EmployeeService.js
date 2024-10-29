@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const EMPLOYEE_API_BASE_URL = import.meta.EMPLOYEE_API_BASE_URL
+const EMPLOYEE_API_BASE_URL = import.meta.env.VITE_EMPLOYEE_API_BASE_URL
 
 class EmployeeService {
     saveEmployee(employee) {
@@ -11,13 +11,13 @@ class EmployeeService {
         return axios.get(EMPLOYEE_API_BASE_URL)
     }
     deleteEmployee(id) {
-        return axios.delete(EMPLOYEE_API_BASE_URL + "/" + id)
+        return axios.delete(EMPLOYEE_API_BASE_URL + '/' + id)
     }
     getEmployeeById(id) {
-        return axios.get(EMPLOYEE_API_BASE_URL + "/" + id);
+        return axios.get(EMPLOYEE_API_BASE_URL + '/' + id)
     }
     updateEmployee(id, employee) {
-        return axios.put(EMPLOYEE_API_BASE_URL + "/" + id, employee);
+        return axios.put(EMPLOYEE_API_BASE_URL + '/' + id, employee)
     }
 }
 
