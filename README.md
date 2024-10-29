@@ -8,28 +8,28 @@ This is the frontend component of the Employee Management System (EMS), develope
 
 ## Table of Contents
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Available Scripts](#available-scripts)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+-   [Features](#features)
+-   [Tech Stack](#tech-stack)
+-   [Getting Started](#getting-started)
+-   [Installation](#installation)
+-   [Usage](#usage)
+-   [Available Scripts](#available-scripts)
+-   [Project Structure](#project-structure)
+-   [Contributing](#contributing)
+-   [License](#license)
 
 ## Features
 
-- **Employee Management**: Add, update, view, and delete employee records.
-- **Interactive UI**: Responsive design with intuitive navigation.
-- **Seamless Backend Integration**: Communicates with Spring Boot backend via REST API.
-- **Real-Time Data**: Instant updates on employee data changes.
-  
+-   **Employee Management**: Add, update, view, and delete employee records.
+-   **Interactive UI**: Responsive design with intuitive navigation.
+-   **Seamless Backend Integration**: Communicates with Spring Boot backend via REST API.
+-   **Real-Time Data**: Instant updates on employee data changes.
+
 ## Tech Stack
 
-- **Frontend**: Vite, React, Tailwind CSS
-- **Backend**: Spring Boot (separate repository)
-- **Database**: PostgreSQL (accessed by the backend)
+-   **Frontend**: Vite, React, Tailwind CSS
+-   **Backend**: Spring Boot (separate [repository](https://github.com/harsh-1806/employee-management-system-backend.git))
+-   **Database**: PostgreSQL (accessed by the backend)
 
 ## Getting Started
 
@@ -37,23 +37,23 @@ This is the frontend component of the Employee Management System (EMS), develope
 
 Before you begin, ensure you have:
 
-- Node.js and npm installed
-- The backend server running and accessible (see backend README for setup instructions)
+-   Node.js and npm installed
+-   The backend server running and accessible (see backend README for setup instructions)
 
 ### Installation
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/harsh-1806/employee-management-system-frontend.git
-   cd employee-management-system-frontend
-   ```
+    ```bash
+    git clone https://github.com/harsh-1806/employee-management-system-frontend.git
+    cd employee-management-system-frontend
+    ```
 
 2. Install dependencies:
 
-   ```bash
-   npm install
-   ```
+    ```bash
+    npm install
+    ```
 
 ### Configuration
 
@@ -67,18 +67,18 @@ EMPLOYEE_API_BASE_URL = http://localhost:8080/api/v1/employees
 
 1. Start the development server:
 
-   ```bash
-   npm run dev
-   ```
+    ```bash
+    npm run dev
+    ```
 
 2. Open your browser and go to `http://localhost:5173` to view the app.
 
 ## Available Scripts
 
-- **`npm run dev`**: Runs the app in development mode.
-- **`npm run build`**: Builds the app for production.
-- **`npm run preview`**: Serves the production build locally for testing.
-- **`npm run lint`**: Checks for code quality issues using ESLint.
+-   **`npm run dev`**: Runs the app in development mode.
+-   **`npm run build`**: Builds the app for production.
+-   **`npm run preview`**: Serves the production build locally for testing.
+-   **`npm run lint`**: Checks for code quality issues using ESLint.
 
 ## Project Structure
 
