@@ -1,7 +1,3 @@
-Here’s a sample README for your Vite and React-based Employee Management System project:
-
----
-
 # Employee Management System - Frontend
 
 This is the frontend component of the Employee Management System (EMS), developed using Vite, React, and Tailwind CSS. The system provides functionalities for managing employee data, including creating, reading, updating, and deleting (CRUD) operations. The frontend communicates with a Spring Boot-based backend for data persistence.
